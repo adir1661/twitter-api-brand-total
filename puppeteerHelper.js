@@ -10,7 +10,6 @@ async function autoScroll(page){
                 var scrollHeight = document.body.scrollHeight;
                 window.scrollBy(0, distance);
                 totalHeight += distance;
-
                 if(totalHeight >= scrollHeight){
                     clearInterval(timer);
                     resolve();
