@@ -2,9 +2,9 @@
 
 just :
 
-1.active mongo instance via mongod.exe
+1. active mongo instance via mongod.exe
 
-2.run npm install
+2. run npm install
 
 3. open in browser 'chrome://inspect'
 
